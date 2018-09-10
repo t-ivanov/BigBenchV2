@@ -1,0 +1,32 @@
+ hadoop fs -mkdir /bigbenchv2/data/customers
+ hadoop fs -put customers.tbl /bigbenchv2/data/customers
+ 
+ 
+ hadoop fs -mkdir /bigbenchv2/data/items
+ hadoop fs -put items.tbl /bigbenchv2/data/items
+ 
+ hadoop fs -mkdir /bigbenchv2/data/product_reviews
+ hadoop fs -put product_reviews.tbl /bigbenchv2/data/product_reviews
+ 
+ hadoop fs -mkdir /bigbenchv2/data/web_pages
+ hadoop fs -put web_pages.tbl /bigbenchv2/data/web_pages
+ 
+ 
+ hadoop fs -mkdir /bigbenchv2/data/web_sales
+ hadoop fs -put web_sales.tbl /bigbenchv2/data/web_sales
+ 
+ hadoop fs -mkdir /bigbenchv2/data/store_sales
+ hadoop fs -put store_sales.tbl /bigbenchv2/data/store_sales
+ 
+ hadoop fs -mkdir /bigbenchv2/data/stores
+ hadoop fs -put stores.tbl /bigbenchv2/data/stores
+  
+hadoop fs -mkdir /bigbenchv2/data/web_logs
+hadoop fs -put clicks.json /bigbenchv2/data/web_logs
+
+--hadoop fs -mkdir /bigbenchv2/data/test
+--hadoop fs -put test.json /bigbenchv2/data/test
+
+
+--hadoop fs -mkdir /bigbenchv2/data/static_web_logs
+--hadoop fs -put clicks.tbl /bigbenchv2/data/static_web_logs
