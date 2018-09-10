@@ -61,11 +61,17 @@ Running thread 0
 Running thread 1
 
 Running thread 2
+
 Running thread 3
+
 Running thread 4
+
 Running thread 5
+
 Running thread 6
+
 Running thread 7
+
 merging review files
  
  ----------------------------------
@@ -74,19 +80,35 @@ merging review files
  .\wlgen.exe -s 10 -j
  
 PS D:\BigBenchV2> .\wlgen.exe -s 10 -j
+
 number of stores in each GMT offset: 100
+
 number of items: 1217
+
 number of categories: 25
+
 number of customers: 19900
+
 generating items
+
 generating inventory
+
 generating clicks, web sales, and product reviews
+
 Running thread 0
+
 Running thread 1
+
 Running thread 2
+
 Running thread 3
+
 Running thread 4
+
 Running thread 5
+
 Running thread 6
+
 Running thread 7
+
 merging review files
