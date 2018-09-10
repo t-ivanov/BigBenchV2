@@ -4,9 +4,13 @@ Generate data for WLBench
 
 General options:
 -s <n> -- set scale factor to <n> (default: 1.0)
+ 
 -j     -- output clicks table in JSON format
+
 -r <n> -- exclusively run thread number <n>
+
 -M     -- do not merge the resulting files
+
 -h     -- display this message
 
 Options to print specific tables:
