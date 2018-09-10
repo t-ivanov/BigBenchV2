@@ -1,8 +1,11 @@
 PS D:\BB2> .\wlgen.exe -h
+
 Usage: D:\BB2\wlgen.exe [OPTION]...
+
 Generate data for WLBench
 
 General options:
+
 -s <n> -- set scale factor to <n> (default: 1.0)
  
 -j     -- output clicks table in JSON format
@@ -14,14 +17,23 @@ General options:
 -h     -- display this message
 
 Options to print specific tables:
+
 -C     -- print the customers table
+
 -I     -- print the items table
+
 -L     -- print the clicks table
+
 -W     -- print the web sales table
+
 -S     -- print the store sales table
+
 -P     -- print the web pages table
+
 -T     -- print the stores table
+
 If none are specified, all tables will be printed
+
 
 ----------------------------------
  Generate data in text for scale factor 10
