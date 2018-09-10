@@ -41,15 +41,25 @@ If none are specified, all tables will be printed
  .\wlgen.exe -s 10
 
   PS D:\BigBenchV2> .\wlgen.exe -s 10
+
 number of stores in each GMT offset: 100
+
 number of items: 1217
+
 number of categories: 25
+
 number of customers: 19900
+
 generating items
+
 generating inventory
+
 generating clicks, web sales, and product reviews
+
 Running thread 0
+
 Running thread 1
+
 Running thread 2
 Running thread 3
 Running thread 4
