@@ -15,8 +15,6 @@ if [ ! -w "$LOG_FILE_EXEC_TIMES" ]
 fi
 
 
-#HOSTFILE=$BENCH_HOME/bin/hostlist
-
 TEST_QUERIES="1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 27 29 30"
 #"12 13 14 15 16 17 18 19 20 21 22 23 24 27 29 30"
 #"1 2 3 4 5 6 7 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 27 29 30"
@@ -53,10 +51,4 @@ done
 	# log the times in load_time.csv file
 	echo "${STARTDATE_EPOCH}|${STOPDATE_EPOCH}|${DIFF_ms}|${STARTDATE}|${STOPDATE}|${DURATION}|${BENCHMARK}|${DATABASE}|${SCALE}|${ENGINE}|${FILE_FORMAT}|Query ${i}" >> ${LOG_FILE_EXEC_TIMES}
 
-	
-	#i=$(( i+1 ))	
-	#i=`expr $i + 1`
 done
-
-# clear the Hadoop logs
-#  hadoop fs -rm -R -skipTrash /tmp/hive-root/*
