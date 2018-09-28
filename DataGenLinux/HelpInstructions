@@ -1,1 +1,35 @@
+Login as root user and execute:
 
+./DataGen.out -h
+Usage: ./DataGen.out [OPTION]...
+Generate data for WLBench
+
+General options:
+-s <n> -- set scale factor to <n> (default: 1.0)
+-j     -- output clicks table in JSON format
+-r <n> -- exclusively run thread number <n>
+-M     -- do not merge the resulting files
+-h     -- display this message
+
+Options to print specific tables:
+-C     -- print the customers table
+-I     -- print the items table
+-L     -- print the clicks table
+-W     -- print the web sales table
+-S     -- print the store sales table
+-P     -- print the web pages table
+-T     -- print the stores table
+If none are specified, all tables will be printed
+
+
+
+----------------------------------------------------------------
+ Generate data in text for scale factor 1 separated with "|"
+----------------------------------------------------------------
+./DataGen.out -s 1
+
+
+----------------------------------------------------------------
+ Generate data in JSON format for scale factor 1 
+----------------------------------------------------------------
+./DataGen.out -s 1 -j
